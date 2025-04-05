@@ -1,3 +1,5 @@
+import { Genre } from "./Genre";
+
 export type Movie = {
   id: number;
   title: string;
@@ -5,7 +7,7 @@ export type Movie = {
   yearLaunched: string;
   link: string;
   castMembers: string[];
-  genres: string[];
+  genres: Genre[];
   thumbFileURL: string;
   bannerFileURL: string;
   videoFileURL: string;
